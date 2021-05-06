@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/ic_account"
+        android:title="Account"
+        app:showAsAction="always" />
+
+    <item
+        android:title="CART"
+        android:id="@+id/cart"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/cart"/>
+    <item android:title="Contact us"
+        android:id="@+id/contactus"
+        android:enabled="true" />
+    <item android:title="About us"
+        android:enabled="true"
+        android:id="@+id/aboutus"/>
+    <item android:title="Help"
+        android:enabled="true"
+        android:id="@+id/help"/>
+
+
+</menu>

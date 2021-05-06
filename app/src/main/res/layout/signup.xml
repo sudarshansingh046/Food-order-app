@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center_vertical"
+    android:background="@drawable/popularfood1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="SIGN UP"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/tv"
+        android:textAlignment="center"/>
+
+    <EditText
+
+        android:id="@+id/editTextUserName"
+
+        android:hint="User Name"
+        android:textSize="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="30dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:textSize="30dp"
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp" />
+
+</LinearLayout>

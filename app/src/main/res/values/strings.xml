@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Foody</string>
+    <string name="google_maps_api">AIzaSyDPbfATF8R7EezqVTiSNIYafDxHxiqC15U</string>
+    <string name="find_nfood_near_you">Find\nFood Near You</string>
+    <string name="popular">Popular</string>
+    <string name="asia_food">Asia Food</string>
+    <string name="todo">TODO</string>
+</resources>
