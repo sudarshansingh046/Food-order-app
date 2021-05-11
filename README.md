@@ -9,3 +9,5 @@
 -Now, Details,Food items and amount is shown to user. At last when user can click on proceed button to pay,it will automatically redirect to whatsapp in which in chat message all the details are there and user send that message to the owner of the app to get order.
 
 -Thats all about this project.
+
+![](foody.png)
